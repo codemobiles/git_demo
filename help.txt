@@ -4,6 +4,11 @@ git clone [remote repository url]
 #Log and Status
 git log
 git log [file name]
+git log --author="chaiyasit.t@gmail.com"
+git log --after="2014-7-1" --before="2014-7-4"
+git log --author="John\|Mary"
+https://www.atlassian.com/git/tutorials/git-log
+
 git status
 
 # Configuration
@@ -40,8 +45,11 @@ git ls-files --other --ignored --exclude-standard
 #Redo Staged - Call this command to undo git add . to unstaged status
 git reset [file]
 git resest . 
+git clean -n
+git clean -df 
 
 #Synchonize Changes
 git fetch
 git merge [branch-name]
 git push 
+git pull  === git fetch && git merge
