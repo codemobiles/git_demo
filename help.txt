@@ -21,6 +21,7 @@ git add .
 git add [file]
 git reset [file]  
 git commit -m "comment"
+git commit -a -m "comment" // == git add . && git commit -m "123"
 
 #Group Changes
 git branch
