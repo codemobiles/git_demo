@@ -7,8 +7,6 @@ git log [file name]
 git log --author="chaiyasit.t@gmail.com"
 git log --after="2014-7-1" --before="2014-7-4"
 git log --author="John\|Mary"
-https://www.atlassian.com/git/tutorials/git-log
-
 git status
 
 # Configuration
@@ -35,7 +33,6 @@ git checkout 572645d5d8312588b407b32fed875b63663b294d .
 
 #Git Tag on current branch
 git tag
-git tag -l "v1.0"
 git tag -a v1.0 -m "first tag"
 git tag -d v1.0
 git checkout v1.0
@@ -56,6 +53,7 @@ git ls-files --other --ignored --exclude-standard
 
 #Redo Staged - Call this command to undo git add . to unstaged status
 git reset [file]
+git rest --hard [hash]
 git resest . 
 git clean -n
 git clean -df 
@@ -66,4 +64,4 @@ git fetch
 git merge [branch-name]
 git push 
 git pull  === git fetch && git merge
-
+  
