@@ -37,6 +37,11 @@ build/
 temp.*
 git ls-files --other --ignored --exclude-standard
 
-#Redo Commit
-git resest commit 
+#Redo Staged - Call this command to undo git add . to unstaged status
+git reset [file]
+git resest . 
 
+#Synchonize Changes
+git fetch
+git merge [branch-name]
+git push 
