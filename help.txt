@@ -33,7 +33,7 @@ git checkout hashcode file or . for all
 git checkout 572645d5d8312588b407b32fed875b63663b294d test.txt
 git checkout 572645d5d8312588b407b32fed875b63663b294d .
 
-#Git Tag
+#Git Tag on current branch
 git tag
 git tag -l "v1.0"
 git tag -a v1.0 -m "first tag"
@@ -67,4 +67,4 @@ git merge [branch-name]
 git push 
 git pull  === git fetch && git merge
 
-test2
+test4
