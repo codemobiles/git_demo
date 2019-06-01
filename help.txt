@@ -33,14 +33,14 @@ git checkout hashcode file or . for all
 git checkout 572645d5d8312588b407b32fed875b63663b294d test.txt
 git checkout 572645d5d8312588b407b32fed875b63663b294d .
 
-
 #Git Tag
 git tag
 git tag -l "v1.0"
-git 
+git tag -a v1.0 -m "first tag"
+git tag -d v1.0
+git checkout v1.0
 
-
-#Group Changes
+#Git Branch
 git branch
 git branch [branch-name]
 git checkout [branch-name]
