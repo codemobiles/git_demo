@@ -16,5 +16,7 @@ git config --global color.ui auto
 #Make Change
 git status
 git diff
+git diff --staged
 git add .
 git add [file]
+git reset [file]
