@@ -36,6 +36,6 @@ build/
 temp.*
 git ls-files --other --ignored --exclude-standard
 
-#Redo commit
+#Redo Commit
 git resest commit 
 
