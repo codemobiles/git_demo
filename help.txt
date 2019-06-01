@@ -20,3 +20,23 @@ git diff --staged
 git add .
 git add [file]
 git reset [file]  
+git commit -m "comment"
+
+#Group Changes
+git branch
+git branch [branch-name]
+git checkout [branch-name]
+git merge [branch]
+git branch -d [branch-name]
+
+
+#Git Iqnore File
+*.log
+build/
+temp.*
+git ls-files --other --ignored --exclude-standard
+
+
+#Redo commit
+git resest commit 
+
