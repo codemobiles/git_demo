@@ -19,4 +19,4 @@ git diff
 git diff --staged
 git add .
 git add [file]
-git reset [file]
+git reset [file]  
