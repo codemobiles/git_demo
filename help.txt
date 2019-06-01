@@ -1,0 +1,20 @@
+git init [local repository name]
+git clone [remote repository url]
+
+#Log and Status
+git log
+git log [file name]
+git status
+
+# Configuration
+git config --global user.name [username]
+git config --global user.email [user email]
+git config --global --list
+git config --local --list
+git config --global color.ui auto
+
+#Make Change
+git status
+git diff
+git add .
+git add [file]
